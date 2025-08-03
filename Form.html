@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Registration Form</title>
+</head>
+<body>
+    <h2>Hospital Registration Form</h2>
+            <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="30" required></textarea><br><br>
+        <label for="department">Department:</label><br>
+        <select id="department" name="department" required>
+            <option value="">--Select--</option>
+            <option value="General">General Medicine</option>
+            <option value="Pediatrics">Pediatrics</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="Cardiology">Cardiology</option>
+        </select><br><br>
+        <label for="date">Preferred Appointment Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+    <button style="background-color: rgb(66, 215, 17); color: rgb(2, 2, 2);">Register</button>
+    </form>
+</body>
+</html>
